@@ -1,0 +1,29 @@
+.nav-link{
+    font-size: 25px;
+    margin: 0 8px;
+    font-weight: 500;
+    
+   
+}
+.navbar-brand{
+    font-size: 35px;
+   
+    font-weight: 800;
+
+}
+a{
+    text-decoration: none;
+}
+.col-md-2 i{
+    font-size: 50px;
+    color: green;
+    
+   
+    
+
+
+}
+.container-fluid
+{
+    background-color: #FFFFFF;
+}
