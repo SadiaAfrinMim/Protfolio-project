@@ -23,7 +23,65 @@ a{
 
 
 }
-.container-fluid
-{
-    background-color: #FFFFFF;
+
+.cirtificate-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    background-color: bisque;
+    border-radius: 16px;
+    
+    
+}
+.cir-img img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 16px;
+    border: 2px solid green;
+}
+.trainning-section{
+    display: flex;
+    gap: 50px;
+}
+.another-section{
+    display: flex;
+    flex-direction: column;
+     gap: 50px;
+}
+.training{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 24px;
+}
+@media screen and (max-width: 576px) {
+    body{
+        margin: 5px;
+    }
+    .cirtificate-section{
+        width: 100%;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-content: center;
+        margin: 2rem 0;
+        
+        
+        
+        
+    }
+    .cir-img img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        border-radius: 16px;
+        border: 2px solid green;
+    }
+    .cir-img img{
+        width: 100%;
+    }
+    .trainning-section{
+        flex-direction: column;
+    }
+    
 }
