@@ -23,6 +23,12 @@ a{
 
 
 }
+.bg-cover{
+    background-image: url('/blob-scene-haikei\ \(1\).svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .cirtificate-section{
     display: grid;
@@ -42,6 +48,9 @@ a{
 }
 .trainning-section{
     display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
     gap: 50px;
 }
 .another-section{
